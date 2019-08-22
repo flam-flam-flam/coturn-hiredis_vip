@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cd7b6b6-9bf4-4d18-9f33-838b680ac76c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/controller/CallController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/UmCcApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/VmpHeader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/IdTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/Impl/PushServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Baseresponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/common/BaseResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>group</find>
+      <find>log</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/UmCcApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/services/PushServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/PushServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/IdTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/Call.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/proto/Call.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Baseresponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/common/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/feign/PushFeign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/pojo/PushInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/PushService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/Impl/PushServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/config/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Call.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/VmpHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/BaseResponseUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/controller/CallController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UmCc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UmCc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="238" />
+    <option name="y" value="51" />
+    <option name="width" value="1679" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UmCc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UmCc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UmCc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UmCc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UmCc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UmCc" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\src\call\UmCc\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\src\call\UmCc\src\main\java\com\ukelink\voip\proto" />
+      <recent name="D:\src\call\UmCc\src\main\java\com\ukelink\voip\UmCc\bean" />
+      <recent name="D:\src\call\UmCc\src\main\java\com\ukelink\voip\UmCc\utils" />
+      <recent name="D:\src\call\UmCc\src\main\java\com\ukelink\voip\UmCc\common" />
+      <recent name="D:\src\call\UmCc\src\main\java\com\ukelink\voip\UmCc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UmCcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="UmCc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ukelink.voip.UmCc.UmCcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cd7b6b6-9bf4-4d18-9f33-838b680ac76c" name="Default Changelist" comment="" />
+      <created>1566271214578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566271214578</updated>
+      <workItem from="1566271218710" duration="18709000" />
+      <workItem from="1566351641052" duration="32000" />
+      <workItem from="1566380416301" duration="13848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32589000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25692964" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4422222" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27222222" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3288889" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3511111" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49800798" visible="true" weight="0.20895523" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50199205" side_tool="true" visible="true" weight="0.20895523" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23294243" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37333333" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1388889" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49924585" visible="true" weight="0.10074627" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Key Promoter X" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5007542" side_tool="true" weight="0.23720682" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UmCc$UmCcApplication.ic" NAME="UmCcApplication Coverage Results" MODIFIED="1566444393883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ukelink/voip/UmCc/UmCcApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.1.7.RELEASE/spring-boot-starter-test-2.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.ukelink.voip:UmCc:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ukelink.voip:UmCc:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="321.58347242380296">com.ukelink.voip:UmCc:0.0.1-SNAPSHOT</node>
+            <node x="85.5" y="525.645972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE</node>
+            <node x="310.5" y="724.8000000000002">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE</node>
+            <node x="568.5" y="730.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE</node>
+            <node x="561.5" y="935.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE</node>
+            <node x="571.0" y="996.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE</node>
+            <node x="565.0" y="1057.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE</node>
+            <node x="551.0" y="853.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-expression:jar:5.1.9.RELEASE</node>
+            <node x="525.5" y="648.645972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.7.RELEASE</node>
+            <node x="522.0" y="326.39597242380296">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE</node>
+            <node x="732.0" y="303.8750000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="868.0" y="303.8750000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="739.5" y="97.06485849056617">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="545.0" y="771.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="573.0" y="812.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="319.0" y="683.8000000000002">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.7.RELEASE</node>
+            <node x="276.0" y="603.8750000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.7.RELEASE</node>
+            <node x="339.5" y="359.6250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="572.5" y="446.27097242380296">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="729.0" y="446.27097242380296">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="895.0" y="446.27097242380296">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="580.5" y="129.31485849056617">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="355.0" y="196.6250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/junit:junit:jar:4.12</node>
+            <node x="332.5" y="503.1250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="328.0" y="544.1250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="570.0" y="607.645972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.16</node>
+            <node x="551.0" y="487.27097242380296">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.16</node>
+            <node x="576.0" y="566.645972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="325.0" y="257.6250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="319.5" y="318.6250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="337.5" y="400.6250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="566.0" y="267.9640420899858">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="333.0" y="954.0000000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE</node>
+            <node x="576.5" y="894.145972423803">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE/org.springframework:spring-jcl:jar:5.1.9.RELEASE</node>
+            <node x="335.5" y="1015.0000000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-test:jar:5.1.9.RELEASE</node>
+            <node x="331.0" y="462.1250000000001">org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3</node>
+            <node x="78.0" y="115.77097242380296">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE</node>
+            <node x="323.5" y="61.000000000000114">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2</node>
+            <node x="577.5" y="75.37500000000011">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="337.0" y="0.0">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-core:jar:2.11.2</node>
+            <node x="343.5" y="114.62500000000011">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-jul:jar:2.11.2</node>
+            <node x="338.0" y="155.6250000000001">org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="132.5" y="566.645972423803">org.projectlombok:lombok:jar:1.18.8</node>
+            <node x="132.5" y="74.77097242380296">com.alibaba:fastjson:jar:1.2.58</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/junit:junit:jar:4.12">
+              <point x="81.5" y="-9.692307692307736" />
+              <point x="276.0" y="207.1250000000001" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.7.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26">
+              <point x="41.0" y="-5.25" />
+              <point x="482.0" y="160.8750000000001" />
+              <point x="502.0" y="139.81485849056617" />
+              <point x="-35.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE">
+              <point x="68.5" y="-8.399999999999977" />
+              <point x="482.0" y="726.9000000000001" />
+              <point x="502.0" y="342.14597242380296" />
+              <point x="-93.5" y="5.25" />
+            </edge>
+            <edge source="com.ukelink.voip:UmCc:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE">
+              <point x="29.0" y="-2.625" />
+              <point x="-89.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-expression:jar:5.1.9.RELEASE">
+              <point x="-54.0" y="-7.875" />
+              <point x="512.0" y="937.770972423803" />
+              <point x="512.0" y="868.895972423803" />
+              <point x="-64.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="41.5" y="-0.0" />
+              <point x="482.0" y="411.1250000000001" />
+              <point x="502.0" y="278.4640420899858" />
+              <point x="-49.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE">
+              <point x="81.5" y="6.461538461538453" />
+              <point x="276.0" y="735.3000000000002" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-test:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2">
+              <point x="89.0" y="-2.625" />
+              <point x="276.0" y="71.50000000000011" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="43.0" y="-0.0" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26">
+              <point x="39.5" y="-5.25" />
+              <point x="482.0" y="364.8750000000001" />
+              <point x="502.0" y="146.81485849056617" />
+              <point x="-35.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE">
+              <point x="-47.0" y="7.875" />
+              <point x="502.0" y="748.520972423803" />
+              <point x="502.0" y="943.020972423803" />
+              <point x="-54.0" y="-2.625" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="-50.5" y="5.25" />
+              <point x="502.0" y="1072.895972423803" />
+              <point x="482.0" y="973.2500000000001" />
+              <point x="46.0" y="8.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="56.5" y="-0.0" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.7.RELEASE">
+              <point x="68.5" y="-4.2000000000000455" />
+              <point x="482.0" y="731.1000000000001" />
+              <point x="502.0" y="664.395972423803" />
+              <point x="-90.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2">
+              <point x="-49.0" y="-7.0" />
+              <point x="709.0" y="85.87500000000011" />
+              <point x="38.0" y="-0.0" />
+            </edge>
+            <edge source="com.ukelink.voip:UmCc:0.0.1-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.58">
+              <point x="29.0" y="-7.875" />
+              <point x="78.0" y="85.27097242380296" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="59.5" y="-0.0" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="93.5" y="5.25" />
+              <point x="-56.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.16">
+              <point x="51.0" y="-7.0" />
+              <point x="482.0" y="547.6250000000001" />
+              <point x="502.0" y="497.77097242380296" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-expression:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="-64.5" y="-5.25" />
+              <point x="502.0" y="858.395972423803" />
+              <point x="482.0" y="959.2500000000001" />
+              <point x="46.0" y="-5.25" />
+            </edge>
+            <edge source="com.ukelink.voip:UmCc:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.8">
+              <point x="29.0" y="7.875" />
+              <point x="78.0" y="577.145972423803" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.3">
+              <point x="81.5" y="-1.6153846153846416" />
+              <point x="276.0" y="472.6250000000001" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="-47.0" y="2.625" />
+              <point x="502.0" y="743.270972423803" />
+              <point x="482.0" y="955.7500000000001" />
+              <point x="46.0" y="-8.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE">
+              <point x="-54.0" y="7.875" />
+              <point x="502.0" y="953.520972423803" />
+              <point x="502.0" y="1062.395972423803" />
+              <point x="-50.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE">
+              <point x="68.5" y="-0.0" />
+              <point x="482.0" y="735.3000000000002" />
+              <point x="502.0" y="738.020972423803" />
+              <point x="-47.0" y="-2.625" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE/org.springframework:spring-jcl:jar:5.1.9.RELEASE">
+              <point x="46.0" y="-1.75" />
+              <point x="482.0" y="962.7500000000001" />
+              <point x="502.0" y="904.645972423803" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="81.5" y="8.076923076923094" />
+              <point x="276.0" y="964.5000000000001" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26">
+              <point x="-56.5" y="-5.25" />
+              <point x="709.0" y="145.06485849056617" />
+              <point x="35.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.yaml:snakeyaml:jar:1.23">
+              <point x="68.5" y="8.399999999999977" />
+              <point x="482.0" y="743.7" />
+              <point x="502.0" y="822.645972423803" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.7.RELEASE">
+              <point x="81.5" y="3.2307692307692832" />
+              <point x="-103.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="81.5" y="-3.2307692307692832" />
+              <point x="276.0" y="411.1250000000001" />
+              <point x="-41.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE">
+              <point x="60.0" y="-0.0" />
+              <point x="482.0" y="694.3000000000002" />
+              <point x="502.0" y="732.770972423803" />
+              <point x="-47.0" y="-7.875" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="81.5" y="-6.461538461538453" />
+              <point x="276.0" y="329.1250000000001" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26">
+              <point x="-49.0" y="-0.0" />
+              <point x="709.0" y="134.56485849056617" />
+              <point x="35.0" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-core:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2">
+              <point x="42.0" y="-0.0" />
+              <point x="482.0" y="10.5" />
+              <point x="502.0" y="78.87500000000011" />
+              <point x="-38.0" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-core:jar:2.11.2">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="39.5" y="5.25" />
+              <point x="482.0" y="375.3750000000001" />
+              <point x="502.0" y="456.77097242380296" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.16">
+              <point x="51.0" y="7.0" />
+              <point x="482.0" y="561.6250000000001" />
+              <point x="502.0" y="618.145972423803" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26">
+              <point x="-93.5" y="-5.25" />
+              <point x="502.0" y="331.64597242380296" />
+              <point x="482.0" y="171.3750000000001" />
+              <point x="41.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="-54.0" y="2.625" />
+              <point x="502.0" y="948.270972423803" />
+              <point x="482.0" y="966.2500000000001" />
+              <point x="46.0" y="1.75" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26">
+              <point x="55.5" y="5.25" />
+              <point x="482.0" y="76.75000000000011" />
+              <point x="502.0" y="132.81485849056617" />
+              <point x="-35.0" y="-7.0" />
+            </edge>
+            <edge source="com.ukelink.voip:UmCc:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE">
+              <point x="29.0" y="2.625" />
+              <point x="-81.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="81.5" y="-8.076923076923094" />
+              <point x="276.0" y="268.1250000000001" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="68.5" y="4.2000000000000455" />
+              <point x="482.0" y="739.5000000000002" />
+              <point x="502.0" y="781.645972423803" />
+              <point x="-70.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.7.RELEASE">
+              <point x="103.0" y="-0.0" />
+              <point x="502.0" y="653.895972423803" />
+              <point x="-90.0" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.7.RELEASE">
+              <point x="81.5" y="4.846153846153811" />
+              <point x="276.0" y="694.3000000000002" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="81.5" y="-4.846153846153811" />
+              <point x="276.0" y="370.1250000000001" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6">
+              <point x="51.0" y="-0.0" />
+              <point x="482.0" y="554.6250000000001" />
+              <point x="502.0" y="577.145972423803" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2">
+              <point x="55.5" y="-5.25" />
+              <point x="482.0" y="66.25000000000011" />
+              <point x="502.0" y="85.87500000000011" />
+              <point x="-38.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2">
+              <point x="93.5" y="-5.25" />
+              <point x="-49.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26">
+              <point x="89.0" y="7.875" />
+              <point x="276.0" y="166.1250000000001" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.mockito:mockito-core:jar:2.23.4">
+              <point x="81.5" y="1.6153846153846416" />
+              <point x="276.0" y="554.6250000000001" />
+              <point x="-51.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.assertj:assertj-core:jar:3.11.1">
+              <point x="81.5" y="-0.0" />
+              <point x="276.0" y="513.6250000000001" />
+              <point x="-46.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-core:jar:2.11.2">
+              <point x="89.0" y="-7.875" />
+              <point x="276.0" y="10.5" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot:jar:2.1.7.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE">
+              <point x="-44.5" y="-0.0" />
+              <point x="502.0" y="1006.645972423803" />
+              <point x="482.0" y="969.7500000000001" />
+              <point x="46.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework:spring-test:jar:5.1.9.RELEASE">
+              <point x="81.5" y="9.692307692307736" />
+              <point x="276.0" y="1025.5" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-jul:jar:2.11.2" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2">
+              <point x="35.5" y="-0.0" />
+              <point x="482.0" y="125.12500000000011" />
+              <point x="502.0" y="92.87500000000011" />
+              <point x="-38.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j2:jar:2.1.7.RELEASE/org.apache.logging.log4j:log4j-jul:jar:2.11.2">
+              <point x="89.0" y="2.625" />
+              <point x="276.0" y="125.12500000000011" />
+              <point x="-35.5" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8437305053025576" x="264.0" y="890.0" />
+          <SelectedNodes>
+            <node>org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.7.RELEASE/spring-boot-starter-2.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Clientinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/feign/PushFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/pojo/PushInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/BaseResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="2715" column="37" selection-start-line="2715" selection-start-column="37" selection-end-line="2715" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/IdTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/bean/VmpHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/proto/Baseresponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/common/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/PushService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/BaseResponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="31" column="115" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/utils/ResponseCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/UmCcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/service/Impl/PushServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ukelink/voip/UmCc/controller/CallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

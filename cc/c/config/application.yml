@@ -1,0 +1,17 @@
+server:
+  port: 8822
+spring:
+  application:
+    name: um-cc
+logging:
+  config: config/log4j2.xml
+eureka:
+  instance:
+    preferIpAddress: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://10.100.93.47:8761/eureka/
+snowflake:
+  workerId: 31
+  datacenterId: 31

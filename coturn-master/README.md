@@ -124,3 +124,6 @@ email:mom040267@gmail.com
 ### Feedback is very welcome (bugs, issues, suggestions, stories, questions). ###
 
 ### Volunteers are welcome, too. ###
+
+
+turnserver -v -L 本机ip -a -f -r mytest -c /etc/turnserver/turnserver.conf --redis-userdb="host=ip dbname=0 password=admin port=6382" 
